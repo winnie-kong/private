@@ -15,4 +15,4 @@ function Art() {
             );
           }
 
-export default Art;        
+export default Art;         
