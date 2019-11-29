@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Apple Chancery";
+  src: url("Apple Chancery.woff2") format("woff2"),
+       url("Apple Chancery.woff") format("woff"),
+       url("Apple Chancery.ttf") format("truetype"),
+       url("Apple Chancery.eot") format("embedded-opentype"),
+       url("Apple Chancery.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.web-font{
+  font-family:"Apple Chancery" !important;
+  font-size:48px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

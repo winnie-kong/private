@@ -1,26 +1,32 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './font/Apple Chancery.css';
 
-function App() {
+
+ 
+
+//这里定义了一个app function直接return出去了
+//这里面写的代码被index.js调用了
+
+
+
+
+
+function Cont() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+
+    <div className="line">
+    <header className="header">
+      <span className="header-left"><i className="web-font" >Hexo</i></span>
+      <span className="header-right">Home</span>
+     </header>
+     </div>
+    
+  </React.Fragment>
+  
   );
 }
 
-export default App;
+export default Cont;          
