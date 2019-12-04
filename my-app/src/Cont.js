@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import article from './Art.js';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
 
 function Cont() {
@@ -10,10 +9,7 @@ function Cont() {
        
        <div className="content">
             <div className="content-header">
-              <Router>
-                <Link to="/article.html" target="_blank"><h1>安装与过程</h1></Link>
-                <Route exact path="article.html" component={article} />    
-              </Router>
+
               <span>2019-10-22</span>  
             </div>
             <div className="content-article">
@@ -53,7 +49,6 @@ function Cont() {
             <div className="content-header">
                 <h1>所学的技术</h1>
                 <span>2019-11-27</span>
-                <a href="https://winnie-kong.github.io/" target="_blank">winnie</a>
             </div>
             <div className="content-article">
                <p>本月的任务中，学到的新知识点较多，总结为以下几点。</p> 

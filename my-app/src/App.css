@@ -32,8 +32,18 @@
 .header-right{float:right;padding: 30px;font-size: 18px;}
 .header-right a{text-decoration: none;color:inherit;}
 
+
+.tit{width:800px;margin: 0 auto;margin-bottom: 20px;padding:1.5em 0;font-family: Arial;line-height: 1.5;height: 50px;}
+.tit-header{display:block;float:left;width:150px;height:80px;}
+.tit-header h1{font-size: 30px;font-weight: normal;margin: 0;position: relative;width: 160px;}
+.tit-header h1::after{content: '';height: 2px;background: #c05b4d;position: absolute;top: 100%;left: 50%;right:50%;transition: all .6s;}
+.tit-header h1:hover::after{left: 0%;right: 0%;color:#34495e;}
+.tit-header ul{padding:0;}
+.tit-header ul li{list-style:none;}
+.tit-header ul li a{ text-decoration: none;color: #34495e;}
+
 .content{width:800px;margin: 0 auto;margin-bottom: 20px;padding:1.5em 0;font-family: Arial;line-height: 1.5;}
-.content-header{display:block;float:left;width:150px;height:80px;}
+.content-header{display:block;float:left;width:150px;}
 .content-header h1{font-size: 30px;font-weight: normal;margin: 0;position: relative;}
 .content-header h1::after{content: '';height: 2px;background: #c05b4d;position: absolute;top: 100%;left: 50%;right:50%;transition: all .6s;}
 .content-header h1:hover::after{left: 0%;right: 0%;}
