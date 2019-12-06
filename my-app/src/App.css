@@ -64,4 +64,4 @@
 .content-article table::before{position:absolute;top:0;right:0;left:0;padding:2px 7px;font-size:13px;font-weight:bold;color:#b1b1b1;background:#f4efe1;content:'Bash';}
 .div-table{  white-space:nowrap }
 .figure-style{overflow:auto;width:800px}
-.tit01{padding: 0;list-style: none;}
+.tit01{padding: 0;list-style: none;width: 800px;margin:0 auto;}

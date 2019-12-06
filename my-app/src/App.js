@@ -74,7 +74,41 @@ function ArticleList() {
     <ul className="tit01">
       {
         title.map(title => (
-          <li key={title}><Link to={`/post/${title}`}> {title}</Link></li>  
+          <li key={title}><Link to={`/post/${title}`}> {title}</Link>
+          <div className="content-article">
+               <p>首先对 <a>"React"</a>  进行了一番了解，通读官方文档，了解过后根据菜鸟教程开始了操作。 </p> 
+               <p>除了对react这种操作模式的不了解外， <a>"React"</a> 的语法学起来也有点困难。在我的操作中，运用到的应该都是比较基础且单一的。</p>
+               <h2>安装过程以及修改内容</h2>
+               <figure className="figure-style">
+              <table  className="div-table">
+                  ::before 
+                  <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>以 git 执行 <span>cnpm install -g create-react-app、create-react-app my-app、cd my-app/、npm start</span>命令，打开预览页面<span>http://localhost:3000/</span> ；</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>打开 <span>App.js</span> 页面，在编辑器中对其进行修改；</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>由于内容较多，在 <span>APP.js</span> 中放入了头部和一篇文章的内容，新增了<span>Cont.js</span> 和 <span>Footer.js</span> 把内容分开；</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Footer 的内容涉及 <span>iconfont</span> ，以git 执行命令安装依赖，并在组件中引入使用;</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>在react 中制作完网站后，在 <span>github</span> 上新建仓库，将内容上传至仓库中。</td>
+                            </tr>
+                  </tbody>
+              </table>
+          </figure>
+          <p>预览的页面显示的是“index.html” 的内容，在“index.html”上定义"div" 的内容，在“index.js”中引用了“App.js”内容，三者间互相调用。</p>
+          </div>
+          </li>  
         ))
       }
     </ul>
@@ -137,5 +171,6 @@ function Article() {
     </div>
   );
 }
+
 
 export default App;
