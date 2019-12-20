@@ -9,7 +9,7 @@ function Cont() {
        
        <div className="content">
             <div className="content-header">
-
+            <h1>安装与过程</h1>
               <span>2019-10-22</span>  
             </div>
             <div className="content-article">
